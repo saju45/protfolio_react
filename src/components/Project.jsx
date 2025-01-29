@@ -16,7 +16,7 @@ const Project = () => {
       img: project1,
       name: "Ecommerce App",
       github_link: "https://github.com/saju45/Ecommerce_app_mern",
-      live_link: "https://shanawaj-ecommerce.netlify.app",
+      live_link: "https://protfoliosaju.netlify.app",
     },
     {
       img: project2,
