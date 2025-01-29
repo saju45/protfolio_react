@@ -1,0 +1,67 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #1c1c1e;
+  color: #f3f4f6;
+}
+.btn-primary {
+  background-color: #00a8ff;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.aboutImg::after {
+  content: "";
+  width: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 1rem;
+  transform: rotate(12deg);
+  height: 100%;
+  position: absolute;
+  background-color: #4a5568;
+  z-index: -10;
+}
+
+.swiper-pagination-bullet {
+  background-color: #ffffff;
+}
+
+input,
+input,
+textarea {
+  background-color: #2d3748;
+  outline: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+}
+::placeholder {
+  color: #a0aec0;
+  font-size: 1rem;
+}
+::selection {
+  background-color: #4fd1c5;
+}
+::placeholder {
+  /* @apply text-lg; */
+  font-size: 1.125rem; /* Equivalent to text-lg */
+  line-height: 1.75rem;
+}
+
+::selection {
+  background-color: #4fd1c5;
+}
